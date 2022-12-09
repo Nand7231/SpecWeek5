@@ -1,7 +1,7 @@
 import java.util.Stack;
 import java.util.HashMap;
-public class Balance {
-    public static boolean balance(String s) {
+public class BalancedBrackets {
+    public static boolean balanceParentheses(String s) {
         int numUnclosedOpenParens = 0;
         for (int i = 0; i < s.length(); i += 1) {
             if (s.charAt(i) == '(') {

@@ -19,20 +19,6 @@ public class MissingNumberPerformanceTest {
             mn.missingNumber(missingSeven, max);
         }
     }
-    @Test(timeout=100)
-    public void testMissingNumberSort_Performance() {
-        for (int i = 0; i < 1000000; i += 1) {
-            mn.missingNumberSort(missingMax, max);
-            mn.missingNumberSort(missingNone, max);
-            mn.missingNumberSort(missingSeven, max);
-        }
-    }
-    @Test(timeout=100)
-    public void testMissingNumberSum_Performance() {
-        for (int i = 0; i < 1000000; i += 1) {
-            mn.missingNumberSum(missingMax, max);
-            mn.missingNumberSum(missingNone, max);
-            mn.missingNumberSum(missingSeven, max);
-        }
-    }
+
+
 }
